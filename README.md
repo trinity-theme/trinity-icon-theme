@@ -20,6 +20,12 @@ Preview
 ![PREVIEW](https://raw.githubusercontent.com/zeppe-lin/trinity-icon-theme/master/preview.png)
 
 
+Dependencies
+------------
+- [librsvg 2.40.20+](https://wiki.gnome/org/LibRsvg)
+- [hicolor icon theme](https://www.freedesktop.org/wiki/Software/icon-theme)
+
+
 Install
 -------
 To install system-wide, copy the content of this directory to
