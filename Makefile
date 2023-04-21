@@ -1,3 +1,5 @@
+include config.mk
+
 DATA  = actions           \
 	animations        \
 	apps              \
