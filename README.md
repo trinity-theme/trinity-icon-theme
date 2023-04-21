@@ -1,5 +1,5 @@
-ABOUT
------
+OVERVIEW
+--------
 This directory contains *trinity-icon-theme*, a free and open-source
 SVG icon theme, based on [archdroid-icon-theme][1] which in turn is
 based on Android Lollipop Material Design icons.  The main difference
@@ -9,17 +9,20 @@ been removed.  Therefore, *trinity-icon-theme* isn't prohibited for
 non-commercial use.
 
 The original sources can be downloaded from:
-  1. https://github.com/GreenRaccoon23/archdroid-icon-theme
-  2. https://github.com/google/material-design-icons
+1. https://github.com/GreenRaccoon23/archdroid-icon-theme
+2. https://github.com/google/material-design-icons
+
 
 PREVIEW
 -------
 ![PREVIEW][3]
 
+
 REQUIREMENTS
 ------------
 * [librsvg 2.40.20+][4]
 * [hicolor icon theme][5]
+
 
 INSTALL
 -------
@@ -32,6 +35,7 @@ gtk-update-icon-cache -q -t -f /usr/share/icons/trinity
 
 To install as user locally, copy the content of this directory to
 `~/.themes/trinity`.
+
 
 LICENSE
 -------
