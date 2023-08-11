@@ -20,21 +20,34 @@ PREVIEW
 
 REQUIREMENTS
 ------------
-* [librsvg 2.40.20+][4]
-* [hicolor icon theme][5]
-
+**Required**:
+- [librsvg 2.40.20+][4]
+- [hicolor icon theme][5]
+**Optional**:
+- `gtk-update-icon-cache(1)` from gtk2 or gtk3
+- `gdk-pixbuf-query-loaders(1)` from gdk-pixbuf
 
 INSTALL
 -------
-To install system-wide, copy the content of this directory to
-`/usr/share/icons/trinity`, then run the following commands:
+**System-wide**:
+The shell commands `make install` should install this package.  See
+`config.mk` file for configuration parameters.
+
+**Locally**:
+To install this theme as user locally, run
 ```sh
-gdk-pixbuf-query-loaders --update-cache
-gtk-update-icon-cache -q -t -f /usr/share/icons/trinity
+make PREFIX= DATADIR=~/.themes
 ```
 
-To install as user locally, copy the content of this directory to
-`~/.themes/trinity`.
+Note that *trinity-icon-theme* already installs the updated icon
+cache.  If you would like to update it manually, at least if you
+package this theme for any GNU/Linux distro, run the following
+commands (change `/usr/local/share/icons/Trinity` to your installation
+path if you modified default paths):
+```sh
+gdk-pixbuf-query-loaders --update-cache
+gtk-update-icon-cache -q -t -f /usr/local/share/icons/Trinity
+```
 
 
 LICENSE
@@ -53,12 +66,12 @@ The main source of this package is:
 <https://www.apache.org/licenses/LICENSE-2.0>.
 Read the *LICENSE.APACHE-2.0* file for copying conditions.
 
----
+----------------------------------------------------------------------
 
 Manually designed icons have been inspired by the above source as well
 as the following:
 
----
+----------------------------------------------------------------------
 
 **Ubuntu-Mono, Canonical Ltd.**
 ([Source][8], [License][9])
