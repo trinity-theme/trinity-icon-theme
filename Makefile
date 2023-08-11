@@ -1,26 +1,28 @@
+.POSIX:
+
 include config.mk
 
-DATA  = actions           \
+THEME = actions           \
 	animations        \
 	apps              \
 	categories        \
 	devices           \
 	emblems           \
-	icon-theme.cache  \
-	index.theme       \
 	mimetypes         \
 	places            \
 	status            \
 	stock             \
+	icon-theme.cache  \
+	index.theme       \
 
 all:
 
 install:
-	mkdir -p ${DESTDIR}${PREFIX}/share/icons/trinity
-	cp -Pr ${DATA} ${DESTDIR}${PREFIX}/share/icons/trinity
+	mkdir -p ${DESTDIR}${DATADIR}/Trinity
+	cp -Pr ${THEME} ${DESTDIR}${DATADIR}/Trinity
 
 uninstall:
-	rm -rf ${DESTDIR}${PREFIX}/share/icons/trinity
+	rm -rf ${DESTDIR}${DATADIR}/Trinity
 
 clean:
 	rm -f ${DIST}.tar.gz
