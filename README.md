@@ -36,7 +36,7 @@ The shell commands `make install` should install this package.  See
 **Locally**:
 To install this theme as user locally, run
 ```sh
-make PREFIX= DATADIR=~/.themes
+make PREFIX= DATADIR=~/.themes install
 ```
 
 Note that *trinity-icon-theme* already installs the updated icon
