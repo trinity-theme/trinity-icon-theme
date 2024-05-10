@@ -9,8 +9,8 @@ Lollipop Material Design icons.  The main difference from
 Therefore, *trinity-icon-theme* isn't prohibited for non-commercial use.
 
 The original sources can be downloaded from:
-1. https://github.com/GreenRaccoon23/archdroid-icon-theme
-2. https://github.com/google/material-design-icons
+  1. https://github.com/GreenRaccoon23/archdroid-icon-theme
+  2. https://github.com/google/material-design-icons
 
 
 PREVIEW
@@ -24,13 +24,13 @@ REQUIREMENTS
 
 Required
 --------
-- [librsvg 2.40.20+][4]
-- [hicolor icon theme][5]
+  * [librsvg 2.40.20+][4]
+  * [hicolor icon theme][5]
 
 Optional
 --------
-- `gtk-update-icon-cache(1)` from gtk2 or gtk3
-- `gdk-pixbuf-query-loaders(1)` from gdk-pixbuf
+  * `gtk-update-icon-cache(1)` from gtk2 or gtk3
+  * `gdk-pixbuf-query-loaders(1)` from gdk-pixbuf
 
 
 INSTALL
