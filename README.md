@@ -1,12 +1,13 @@
 OVERVIEW
 ========
 
-This directory contains *trinity-icon-theme*, a free and open-source SVG icon
-theme, based on [archdroid-icon-theme][1] which in turn is based on Android
-Lollipop Material Design icons.  The main difference from
+This directory contains *trinity-icon-theme*, a free and open-source SVG
+icon theme, based on [archdroid-icon-theme][1] which in turn is based on
+Android Lollipop Material Design icons.  The main difference from
 *archdroid-icon-theme* is that color palette have been adjusted to
-[trinity-gtk-theme][2] and trademark/logo/servicemark icons have been removed.
-Therefore, *trinity-icon-theme* isn't prohibited for non-commercial use.
+[trinity-gtk-theme][2] and trademark/logo/servicemark icons have been
+removed.  Therefore, *trinity-icon-theme* isn't prohibited for
+non-commercial use.
 
 The original sources can be downloaded from:
   1. https://github.com/GreenRaccoon23/archdroid-icon-theme
@@ -49,11 +50,11 @@ To install this theme as user locally, run
 make PREFIX= DATADIR=~/.icons install
 ```
 
-Note that *trinity-icon-theme* already installs the updated icon cache.  If you
-would like to update it manually, at least if you package this theme for any
-GNU/Linux distro, run the following commands (change
-`/usr/local/share/icons/Trinity` to your installation path if you modified
-default paths):
+Note that *trinity-icon-theme* already installs the updated icon cache.
+If you would like to update it manually, at least if you package this
+theme for any GNU/Linux distro, run the following commands (change
+`/usr/local/share/icons/Trinity` to your installation path if you
+modified default paths):
 ```sh
 gdk-pixbuf-query-loaders --update-cache
 gtk-update-icon-cache -q -t -f /usr/local/share/icons/Trinity
@@ -63,8 +64,9 @@ gtk-update-icon-cache -q -t -f /usr/local/share/icons/Trinity
 LICENSE
 =======
 
-*trinity-icon-theme* the same as *archdroid-icon-theme* is licensed through the
-GNU General Public License v3 or later <http://gnu.org/licenses/gpl.html>.
+*trinity-icon-theme* the same as *archdroid-icon-theme* is licensed
+through the GNU General Public License v3 or later
+<http://gnu.org/licenses/gpl.html>.
 Read the *LICENSE.GPLv3+* file for copying conditions.
 
 The main source of this package is:
