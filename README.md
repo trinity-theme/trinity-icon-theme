@@ -1,12 +1,12 @@
 OVERVIEW
 ========
 
-This directory contains *trinity-icon-theme*, a free and open-source SVG
-icon theme, based on [archdroid-icon-theme][1] which in turn is based on
-Android Lollipop Material Design icons.  The main difference from
-*archdroid-icon-theme* is that color palette have been adjusted to
-[trinity-gtk-theme][2] and trademark/logo/servicemark icons have been
-removed.  Therefore, *trinity-icon-theme* isn't prohibited for
+This repository contains *trinity-icon-theme*, a free and open-source
+SVG icon theme, based on [archdroid-icon-theme][1] which in turn is
+based on Android Lollipop Material Design icons.  The main difference
+from *archdroid-icon-theme* is that color palette have been adjusted
+to [trinity-gtk-theme][2] and trademark/logo/servicemark icons have
+been removed.  Therefore, *trinity-icon-theme* isn't prohibited for
 non-commercial use.
 
 The original sources can be downloaded from:
