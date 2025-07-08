@@ -116,10 +116,10 @@ Read the *LICENSE.GPLv3+* file for copying conditions.
 [1]: https://github.com/GreenRaccoon23/archdroid-icon-theme
 
 <!-- trinity-gtk-theme -->
-[2]: https://github.com/zeppe-lin/trinity-gtk-theme
+[2]: https://github.com/trinity-theme/trinity-gtk-theme
 
 <!-- preview -->
-[3]: https://raw.githubusercontent.com/zeppe-lin/trinity-icon-theme/master/preview.png
+[3]: https://raw.githubusercontent.com/trinity-theme/trinity-icon-theme/master/preview.png
 
 <!-- librsvg -->
 [4]: https://wiki.gnome/org/LibRsvg
